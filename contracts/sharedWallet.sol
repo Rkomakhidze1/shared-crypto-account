@@ -40,4 +40,16 @@ contract SharedWallet {
     function approveWithrawl(uint accountId, uint withdrawlId) external payable {
 
     }
+    function withdraw(uint accountId, uint withdrawlId) external payable {
+
+    }
+    function getBalance(uint accountId) public view returns (uint) {
+
+    }
+    function getOwners(uint accountId) public view returns (address[] memory) {
+
+    }
+    function getApprovals(uint accountId, uint withdrawId) public view returns (uint) {
+
+    }
 }
