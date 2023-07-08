@@ -52,4 +52,7 @@ contract SharedWallet {
     function getApprovals(uint accountId, uint withdrawId) public view returns (uint) {
 
     }
+    function getAccounts() public view returns (uint[] memory) {
+
+    }
 }
